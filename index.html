@@ -92,14 +92,111 @@
   margin-bottom:6px;
 }
 
+.theme-badge{
+  display:inline-block;
+  margin:8px 0 6px;
+  padding:8px 18px;
+  border:2px solid #8bd19a;
+  border-radius:999px;
+  background:#fffefa;
+  color:#2a9d8f;
+  font-weight:900;
+  font-size:20px;
+}
+
+.info-box{
+  margin-top:28px;
+  background:#fffdf2;
+  border:2px dashed #ffcf5a;
+  border-radius:24px;
+  padding:18px;
+  text-align:left;
+}
+
+.info-title{
+  font-size:20px;
+  font-weight:900;
+  color:#b86b00;
+  margin-bottom:14px;
+}
+
+.info-item{
+  display:flex;
+  gap:12px;
+  align-items:flex-start;
+  padding:12px 0;
+  border-bottom:1px dashed #f3d28a;
+}
+
+.info-icon{
+  width:44px;
+  height:44px;
+  border-radius:50%;
+  display:grid;
+  place-items:center;
+  background:#edf6f9;
+  font-size:24px;
+  flex-shrink:0;
+}
+
+.info-text strong{
+  display:block;
+  font-size:16px;
+  margin-bottom:3px;
+}
+
+.info-text span{
+  color:#607089;
+  font-size:14px;
+  line-height:1.5;
+}
+
+.parts-mini{
+  margin-top:16px;
+  background:#fff;
+  border-radius:20px;
+  padding:14px;
+  text-align:center;
+}
+
+.parts-face{
+  font-size:70px;
+  margin-bottom:10px;
+}
+
+.parts-tags{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:8px;
+}
+
+.parts-tags span{
+  background:#edf6f9;
+  border-radius:999px;
+  padding:8px 6px;
+  font-weight:900;
+  font-size:13px;
+}
+
+.target-box{
+  margin-top:14px;
+  background:#edf6f9;
+  border-radius:16px;
+  padding:10px;
+  text-align:center;
+  font-weight:900;
+  color:#40516b;
+}
+
 </style>
 </head>
 <body>
 <div class="app">
   <div class="header">
     <span class="badge">英検Jr. ブロンズ向け</span>
-    <h1>イラスト3択えいごゲーム2</h1>
-    <p class="lead">絵を見て、日本語とEnglishを選ぼう</p>
+<h1>イラスト3択えいごゲーム2</h1>
+<div class="theme-badge">😊 顔のパーツをおぼえよう！</div>
+<p class="lead">絵を見て、日本語とEnglishを選ぼう</p>
   </div>
 
   <main class="game-card">
@@ -133,6 +230,49 @@
 
     
 </div>
+
+<div class="info-box">
+  <div class="info-title">⭐ このゲームで学べること</div>
+
+  <div class="info-item">
+    <div class="info-icon">📖</div>
+    <div class="info-text">
+      <strong>かんたんな英単語10問</strong>
+      <span>顔のパーツの英語を楽しく学べます。</span>
+    </div>
+  </div>
+
+  <div class="info-item">
+    <div class="info-icon">🔊</div>
+    <div class="info-text">
+      <strong>音声つきで発音練習</strong>
+      <span>ふつうとゆっくりの音声を聞けます。</span>
+    </div>
+  </div>
+
+  <div class="info-item">
+    <div class="info-icon">💡</div>
+    <div class="info-text">
+      <strong>日本語と英語の意味を覚える練習</strong>
+      <span>絵を見ながら、意味をセットで覚えられます。</span>
+    </div>
+  </div>
+
+  <div class="parts-mini">
+    <div class="parts-face">😊</div>
+    <div class="parts-tags">
+      <span>eye / 目</span>
+      <span>ear / 耳</span>
+      <span>nose / 鼻</span>
+      <span>mouth / 口</span>
+      <span>tooth / 歯</span>
+      <span>hair / 髪</span>
+    </div>
+  </div>
+
+  <div class="target-box">👥 対象：4〜8歳（幼児〜小学校低学年向け）</div>
+</div>
+  
     
 <div id="gameArea" style="display:none;">
 <div class="top">
